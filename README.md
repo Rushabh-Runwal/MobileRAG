@@ -1,5 +1,76 @@
 # MobileRAG: A Fast, Memory-Efficient, and Energy-Efficient Method for On-Device RAG
 
+### 📝 Medium Article
+**Title**: MobileRAG: How On-Device RAG Finally Becomes Fast, Light, and Battery-Friendly
+
+**Link**: [Read on Medium](https://medium.com/@rushabh22runwal/mobilerag-how-on-device-rag-finally-becomes-fast-light-and-battery-friendly-676e197a8966?postPublishedType=initialdone)
+
+**Summary**: An in-depth exploration of MobileRAG's innovative approach to bringing Retrieval-Augmented Generation to mobile devices. The article covers the core architecture, EcoVector's partitioned indexing strategy, Selective Content Reduction techniques, and comprehensive ablation studies demonstrating significant improvements in latency, memory usage, and energy efficiency.
+
+### 🎥 Video Presentation
+**Link**: [Watch on YouTube](https://youtu.be/5bOw4KV1F6E)
+
+**Duration**: 10-15 minutes
+
+**Description**: A comprehensive walkthrough of the MobileRAG paper, explaining the motivation, technical architecture, experimental results, and real-world applications of on-device RAG.
+
+### 📊 Presentation Slides
+**File**: `MobileRAG-The-Future-of-On-Device-Retrieval-Augmented-Generation.pdf`
+
+**Contents**:
+- Problem statement and motivation
+- EcoVector architecture and design
+- Selective Content Reduction (SCR) methodology
+- Performance metrics and ablation studies
+- Real-world use cases and applications
+- Future research directions
+
+### 📄 Research Paper
+**File**: `2507.01079v1.pdf`
+
+**Original Paper**: MobileRAG: A Fast, Memory-Efficient, and Energy-Efficient Method for On-Device RAG
+
+---
+
+## Repository Structure
+
+```
+MobileRAG/
+├── README.md                                                    # This file
+├── 2507.01079v1.pdf                                            # Original research paper
+├── MobileRAG-The-Future-of-On-Device-Retrieval-Augmented-Generation.pdf  # Presentation slides
+```
+
+---
+
+## Key Takeaways
+
+1. **Mobile-First Design**: MobileRAG is specifically engineered for resource-constrained environments, not adapted from server solutions
+2. **EcoVector Innovation**: Partitioned vector indexing dramatically reduces memory footprint while maintaining search accuracy
+3. **Selective Content Reduction**: Intelligent filtering preserves quality while reducing computational requirements
+4. **Impressive Performance**: Up to 3.4× faster latency and 93.5% memory reduction compared to baseline methods
+5. **Privacy-Preserving**: Complete on-device processing ensures data never leaves the user's device
+
+---
+
+## Course Assignment Details
+
+This repository contains all deliverables for the research paper presentation assignment:
+
+✅ Medium article written from scratch with original analysis and insights  
+✅ Comprehensive slide deck explaining the research  
+✅ Video presentation with slides  
+✅ All materials organized in GitHub repository with detailed README  
+
+**Focus Areas Covered**:
+- Architecture deep-dive (EcoVector and SCR components)
+- Ablation studies and experimental results
+- Performance metrics (latency, memory, energy efficiency)
+- Practical applications and use cases
+- Visual diagrams and explanations
+- Critical analysis and personal insights
+
+
 ## Overview
 
 MobileRAG is a research project that addresses the critical challenge of implementing Retrieval-Augmented Generation (RAG) on mobile devices. While RAG has proven highly effective on server infrastructures with abundant computational resources, its application on mobile devices remains underexplored due to the inherent limitations of memory, processing power, and energy constraints typical of mobile environments.
